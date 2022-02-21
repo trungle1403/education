@@ -11,7 +11,7 @@ export default function HomeScreens(){
     }
     const lists = education?.course?.map((element, index) => {
         return (
-            <div className="col-4 mt-3">
+            <div className="col-md-6 col-sm-12 col-lg-4 mt-3">
                 <div className="course-item">
                     <img className='course-image' onClick={() => {hanldeClick(element.slug)}} src={element.image} alt="" />
                     <div className="course-body">
