@@ -1,0 +1,329 @@
+{
+    "course": [
+        {
+            "image":"https://res.cloudinary.com/serviced24/image/upload/v1642750681/course/d%E1%BB%B1ng_phim_c%C6%A1_b%E1%BA%A3n_vzjfxn.jpg",
+            "name": "Khóa học Dựng Phim cơ bản (Adobe Premiere)",
+            "startDate":"14/02/2022",
+            "level":"Cơ bản",
+            "schedule":"Tự chọn",
+            "time":"Tự chọn",
+            "slug":"dung-phim-co-ban",
+            "details": [
+                "Làm quen với giao diện Premiere Pro; đưa file vào dự án làm việc; cắt ghép và xuất file.",
+                "Tạo hiệu ứng và chuyển cảnh video (Effects and Transitions), các hiệu ứng chuyển cảnh thường hay được sử dụng, Plugin chuyển cảnh , Multicam.",
+                "Key chữ lên video và key frame, tạo video từ ảnh tĩnh",
+                "Tăng tốc độ làm việc với các phím tắt cơ bản hay sử dụng, tùy chỉnh phím tắt theo sở thích, cá nhân hóa khung làm việc (Workspaces), quản lý các track(audio, video)",
+                "Chỉnh sửa màu phim và hiệu ứng audio (Editing Audio), dùng các chế độ hòa trộn tạo hiệu ứng từ video tài nguyên, sử dụng Blur.",
+                "Điều chỉnh tốc độ video, audio, cân chỉnh âm thanh, Key video phông xanh, crop video, tạo mặt nạ",
+                "Các kiểu Tiltle trong Premiere, tạo chữ chạy, liên kết với file thiết kế từ Photoshop, sử dụng proxy để hỗ trợ máy tính cấu hình thấp",
+                "Dựng 1 đoạn video ngắn theo kịch bản, Link media, Export video, đóng gói project, tùy chỉnh chất lượng video, tối ưu hóa dung lượng video, sử dụng hàng đợi (Media Encoder)"
+            ],
+            "price":"3.500.000"
+        },
+        {
+            "image":"https://res.cloudinary.com/serviced24/image/upload/v1643009843/course/dung_phim_sx_truyen_hinh.png_1_vrjcnq.jpg",
+            "name": "Khóa học dựng phim sản xuất truyền hình (Adobe Premiere)",
+            "startDate":"14/02/2022",
+            "level":"Nâng cao",
+            "schedule":"Tự chọn",
+            "time":"Tự chọn",
+            "slug":"dung-phim-san-xuat",
+            "details":[
+                "Giới thiệu về các loại video trong ngành truyền hình",
+                "Đọc kịch bản tin tức, dựng thô, thêm thuyết minh",
+                "Thêm sound effect, audio, hoàn thành tin tức",
+                "Các loại phóng sự",
+                "Đọc kịch bản phóng sự ngắn, dựng thô, thêm thuyết minh",
+                "Thêm audio, hoàn thành phóng sự",
+                "Giới thiệu về phim tài liệu, kịch bản, tư duy dựng",
+                "Dựng 1 đoạn ngắn trong phim tài liệu",
+                "Dựng bản tin, cắt xuất hiện, key phông xanh, thêm thuyết minh",
+                "Thêm chuyển cảnh, Sound Effect, Audio, hoàn thành bản tin"
+               
+            ],
+            "price":"4.900.000"
+        },
+
+        {
+            "image":"https://res.cloudinary.com/serviced24/image/upload/v1643009843/course/phim_quang_cao_1_igcqvf.jpg",
+            "name": "Khóa học dựng phim quảng cáo (Adobe Premiere)",
+            "startDate":"14/02/2022",
+            "level":"Nâng cao",
+            "schedule":"Tự chọn",
+            "time":"Tự chọn",
+            "slug":"dung-phim-gioi-thieu",
+            "details":[
+                "Các loại video giới thiệu – giải trí",
+                "Tìm hiểu về Intro, các loại Intro",
+                "Hướng dẫn dựng Intro",
+                "Thực hành dựng Intro và sửa bài tại lớp",
+                "Tìm hiểu về Trailer, các loại Trailer",
+                "Thêm thuyết minh, Sound Effect, Chuyển cảnh, Audio, hoàn thành Trailer",
+                "Thực hành dựng trailer và sửa bài tại lớp",
+                "Tìm hiểu về cách dựng video ca nhạc",
+                "Tư duy dựng video ca nhạc",
+                "Thực hành dựng video ca nhạc và sửa bài tại lớp",
+                "Giới thiệu về video quảng cáo, các loại video quảng cáo",
+                "Tìm hiểu về TVC",
+                "Phương pháp và tư duy dựng TVC",
+                "Thực hành dựng TVC và sửa bài tại lớp"
+               
+            ],
+            "price":"4.900.000"
+        },
+        {
+            "image":"https://res.cloudinary.com/serviced24/image/upload/v1643009843/course/dung_phim_gt_gia_tri.png-1_1_dsenbu.jpg",
+            "name": "Khóa học dựng phim giới thiệu - giải trí (Adobe Premiere)",
+            "startDate":"14/02/2022",
+            "level":"Nâng cao",
+            "schedule":"Tự chọn",
+            "time":"Tự chọn",
+            "slug":"dung-phim-gioi-thieu",
+            "details":[
+                "Giới thiệu về video quảng cáo, các loại video quảng cáo",
+                "Tìm hiểu về TVC",
+                "Phương pháp và tư duy dựng TVC",
+                "Thực hành dựng TVC và sửa bài tại lớp",
+                "Giới thiệu về Video giới thiệu sản phẩm",
+                "Phương pháp và tư duy dựng Video giới thiệu sản phẩm",
+                "Thực hành dựng Video giới thiệu sản phẩm và sửa bài tại lớp",
+                "Giới thiệu về Video quảng bá doanh nghiệp, tổ chức",
+                "Phương pháp và tư duy dựng Video quảng bá",
+                "Thực hành dựng Video quảng bá và sửa bài tại lớp"                            
+            ],
+            "price":"4.900.000"
+        },
+        {
+            "image":"https://res.cloudinary.com/serviced24/image/upload/v1642750680/course/after-effects_c%C6%A1_b%E1%BA%A3n_lapwto.jpg",
+            "name": "Khóa học After Effect cơ bản",
+            "startDate":"14/02/2022",
+            "level":"Cơ bản",
+            "schedule":"Tự chọn",
+            "time":"Tự chọn",
+            "slug":"ae-co-ban",
+            "details": [
+                "Tổng quan về giao diện của After Effect, cách tạo Composition, import file (Video, PSD, AI) layer và các thuộc tính cơ bản, tạo chuyển động cơ bản, render.",
+                "Tìm hiểu về Mask, Shape & Text layer, sử dụng các công cụ tạo khối và Pentool để tạo các shape và mặt nạ, các tính năng của mặt nạ",
+                "Hướng dẫn tạo các chuyển động animation, tìm hiểu về Graph Editor, trim path, tạo các text animation",
+                "Thuộc tính Track Matte, tạo các chuyển cảnh bằng Track Matte",
+                "Tìm hiểu về light, camera",
+                "Hướng dẫn sử dụng track camera, track motion, Key video phông xanh",
+                "Tạo các Flare sáng với Optical Flare, tạo các khối 3D, chữ 3D, các chuyển động 3D với Element 3D",
+                "Tìm hiểu về Plugin Trapcode Particlular"
+            ],
+            "price":"3.500.000"
+        },
+        {
+            "image":"https://res.cloudinary.com/serviced24/image/upload/v1643013437/course/motion_kbik7r.jpg",
+            "name": "Khóa học Animation (After Effect)",
+            "startDate":"14/02/2022",
+            "level":"Nâng cao",
+            "schedule":"Tự chọn",
+            "time":"Tự chọn",
+            "slug":"animation",
+            "details":[
+                "Giới thiệu về Animation, hướng dẫn quản lý và import file AI vào After Effect",
+                "Tạo chuyển động cho vật thể phần 1, Explode Shape Layer, Null Object và Parent, Tìm hiểu kỹ hơn về Shape Layer, Group và Path, làm quen với biểu đồ chuyển động",
+                "Tạo chuyển động cho vật thể phần 2, tìm hiểu về Script Move Anchor Point, Kinetic Expression, sử dụng Effect Radial Wipe, Fill, Repeater, Mask",
+                "Hoàn thành bài thực hành và sửa bài tại lớp",
+                "Làm chuyển động cho nhân vật phần 1, tìm hiểu về Rigging, dùng DUIK để rigging nhân vật",
+                "Làm chuyển động cho nhân vật phần 2, Walk Cycle, điều chỉnh timing, sử dụng time stretch, time remapping và câu lệnh loop_out().",
+                "Làm chuyển động cho nhân vật phần 3, thêm yếu tố Follow Through và Overlapping, Add Shading, hoàn thành chuyển động",
+                "Hoàn thành bài thực hành và sửa bài tại lớp",
+                "Làm quen với camera và hiệu ứng, tìm hiểu về Kinetic Typography, Biểu đồ Value, câu lệnh “Wiggle (0.0);”, liên kết giữa các frames.",
+                "Hoàn thành bài thực hành và sửa bài tại lớp    "
+            ],
+            "price":"4.900.000"
+        },
+
+        {
+            "image":"https://res.cloudinary.com/serviced24/image/upload/v1643013436/course/element_3d_zzch3o.jpg",
+            "name": "Khóa học Element 3D (After Effect)",
+            "startDate":"14/02/2022",
+            "level":"Nâng cao",
+            "schedule":"Tự chọn",
+            "time":"Tự chọn",
+            "slug":"element-3d",
+            "details":[
+                "Giới thiệu về Plugin, cách cài đặt, giao diện sử dụng",
+                "HIỂU VỀ THUỘC TÍNH TÙY CHỈNH VÀ LƯU PRESET TEXT, ANIMATION TEXT 3D",
+                "ROTATION RANDOM MULTI, ANIMATION NHIỀU GROUP TEXT LAYER",
+                "CÁC THUỘC TÍNH ANIMATION CỦA DEFORM, CAMERA ANIMATION",
+                "HIỂU IMPORT SEQUENCE VÀ THUỘC TÍNH PARTICLE",
+                "LOGO 3D ANIMATION, TẠO 3D LOGO",
+                "ĐƯA VẬT THỂ KHÔNG GIAN VÀO 3D",
+                "TẠO BÓNG CHO VẬT THỂ 3D TRONG KHÔNG GIAN",
+                "TẠO 3D CHO KHÔNG GIAN ĐỘNG VẬT HOANG DÃ",
+                "KHÔNG GIAN 3D PHIM"
+            ],
+            "price":"4.900.000"
+        },
+        {
+            "image":"https://res.cloudinary.com/serviced24/image/upload/v1643013436/course/AE_VFX_tzlz6s.jpg",
+            "name": "Khóa học VFX (After Effect)",
+            "startDate":"14/02/2022",
+            "level":"Nâng cao",
+            "schedule":"Tự chọn",
+            "time":"Tự chọn",
+            "slug":"vfx",
+            "details":[
+                "Tìm hiểu về Matchmoving",
+                "Thực hành Matchmove",
+                "Tìm hiểu về Rotoscoping",
+                "Thực hành Rotoscoping",
+                "Tìm hiểu về Object Removal",
+                "Thực hành Object Removal",
+                "VFX Keying (Key phông xanh)",
+                "Thực hành keying",
+                "Tìm hiểu về Screen Replacement",
+                "Thực hành Screen Replacement"
+            ],
+            "price":"4.900.000"
+        },
+        {
+            "image":"https://res.cloudinary.com/serviced24/image/upload/v1642750683/course/photoshop_c%C6%A1_b%E1%BA%A3n_ijdfft.jpg",
+            "name": "Khóa học Photoshop cơ bản",
+            "startDate":"14/02/2022",
+            "level":"Cơ bản",
+            "schedule":"Tự chọn",
+            "time":"Tự chọn",
+            "slug":"photoshop-co-ban",
+            "details": [
+                "Giới thiệu tổng quan về Photoshop, định dạng hình ảnh, cách tạo file, mở file, các công cụ cơ bản, cắt ghép cơ bản với Layer Mask, Làm quen công cụ tạo vùng chọn nhanh (Magic wand tool + Quick Selection)",
+                "Làm quen với Brush, công cụ vùng chọn, Hướng dẫn dùng Pen để tạo vùng chọn, thêm, bớt vùng chọn, tách tóc bằng Select and mask",
+                "Hướng dẫn sử dụng Camera Raw, Retouch, bộ công cụ Healing brush tool, tăng cường độ sắc nét của ảnh với high pass, len màu đơn giản",
+                "Sử dụng thành thạo Layer Mask, quản lý group, layer, tạo các khối cơ bản, làm quen với Solid color, Gradient",
+                "Giới thiệu về texture, Blur, Filter Gallery, Noise, Displace, tạo file Mockup đơn giản",
+                "Hướng dẫn sử dụng Hue/Saturation, Color Balance để đổi màu, Curves, Level để tăng độ sáng, tương phản, làm quen với các chế độ hòa trộn, Radial Blur",
+                "Tìm hiểu về Typoraphy, Font, Blending Option (Color Overlay, Drop shadow, Outer Glow,...)",
+                "Tạo hiệu ứng background với Hue/Saturation, tổng hợp các kỹ năng cắt ghép, tách nền, typoraphy, shape, sắp xếp bố cục cơ bản, export file."
+            ],
+            "price":"1.600.000"
+        },
+        {
+            "image":"https://res.cloudinary.com/serviced24/image/upload/v1642750682/course/banner_photoshop_n%C3%A2ng_cao_u0b6cl.jpg",
+            "name": "Khóa học Photoshop nâng cao",
+            "startDate":"14/02/2022",
+            "level":"Nâng cao",
+            "schedule":"Tự chọn",
+            "time":"Tự chọn",
+            "slug":"photoshop-nang-cao",
+            "details": [
+                "Thiết kế chữ 3D, chất liệu, môi trường, background",
+                "Làm quen với phong cách thiết kế Double Exposure",
+                "Cắt ghép nâng cao, tạo bóng, tạo khối với Shape",
+                "Tạo các Style chữ với Blending Option",
+                "Hướng dẫn tạo vật liệu phát sáng với Brush và Blur",
+                "Chỉnh sửa ảnh, tạo các hiệu ứng background, Len màu",
+                "Phong cách manipulation trong thiết kế",
+                "Tách Layer trong suốt, mockup",
+                "Vẽ chân dung với Shape",
+                "Resize những sản phẩm thực tế"
+            ],
+            "price":"2.000.000"
+
+        },
+        {
+            "image":"https://res.cloudinary.com/serviced24/image/upload/v1642750681/course/banner_AI_c%C6%A1_b%E1%BA%A3n-01_frfo9x.jpg",
+            "name": "Khóa học Adobe Illustrator cơ bản",
+            "startDate":"14/02/2022",
+            "level":"Cơ bản",
+            "schedule":"Tự chọn",
+            "time":"Tự chọn",
+            "slug":"ai-co-ban",
+            "details":[
+                "Giới thiệu tổng quan về AI, ArtBoard, Navigation Tools, vẽ các khối cơ bản, sử dụng Swatches để lấy màu",
+                "Hướng dẫn sử dụng Pathfinder, Shape Builder Tool, tạo hình và tô màu",
+                "Làm quen với công cụ Brush, vẽ 1 đối tượng đơn giản với Paintbrush và tô màu với Blob Brush",
+                "Giới thiệu về công cụ Pen tool, sử dụng Pen tool để tạo các hình ảnh vector từ đơn giản đến phức tạp",
+                "Tìm hiểu về các kiểu Brush bao gồm Caligraphic Brush, Scatter Brush, Pattern Brush,....",
+                "Cách sử dụng Typoraphy, Font, tạo chữ biến dạng theo các khối cơ bản, khai báo các style chữ",
+                "Tạo các khối 3D, Art Map, tạo các kiểu chữ biến dạng trong không gian 3D",
+                "Vẽ biểu đồ trong AI, các kiểu biểu đồ, biểu đồ 3D"
+            ],
+            "price":"1.600.000"
+        },
+        {
+            "image":"https://res.cloudinary.com/serviced24/image/upload/v1642750682/course/banner_AI_n%C3%A2ng_cao-01_ds4sdt.jpg",
+            "name": "Khóa học Adobe Illustrator nâng cao",
+            "startDate":"14/02/2022",
+            "level":"Nâng cao",
+            "schedule":"Tự chọn",
+            "time":"Tự chọn",
+            "slug":"ai-nang-cao",
+            "details": [
+                "Tạo các hiệu ứng với Appearance",
+                "Sử dụng những công cụ đã học hoàn thành bản vẽ với bản phác họa có sẵn",
+                "Sử dụng Brush để tạo các hiệu ứng Shading cho bản vẽ",
+                "Tạo bản vẽ từ hình ảnh",
+                "Tạo các Abtract với Blend tool, vẽ đối xứng",
+                "Tạo Grid, các tính chất hình học, tính năng Tranform Again",
+                "Vẽ phối cảnh buổi 1 (Vẽ căn phòng 1)",
+                "Vẽ phối cảnh buổi 2 (Vẽ căn phòng 2)",
+                "Vẽ phối cảnh buổi 3 (Vẽ thành phố 1)",
+                "Vẽ phối cảnh buổi 4 (Vẽ thành phố 2)"
+            ],
+            "price":"4.900.000"
+        },
+        {
+            "image":"https://res.cloudinary.com/serviced24/image/upload/v1643099118/course/app_level_1_aneolo.png",
+            "name": "Khóa học Thiết Kế App (Level 1)",
+            "startDate":"14/02/2022",
+            "level":"Level 1",
+            "schedule":"Tự chọn",
+            "time":"Tự chọn",
+            "slug":"app-lv1",
+            "details": [
+                "Cài đặt môi trường và tạo ứng dụng",
+                "Tìm hiểu: StateWidget, Text, TextFeild, ElevatedButton, Padding",
+                "Tìm hiểu: StatefulWidget, Scaffold, Appbar, BottomNavigationBar, Icon",
+                "Tìm hiểu: Image, Column, Row, Icon, Container, SizedBox",
+                "Tìm hiểu: ListView, ListTile, Class Model",
+                "Tìm hiểu Navigation: chuyển màn hình, Dialog, BottomSheet",
+                "Thực hành xây dựng ứng dụng hoàn chỉnh",
+                "Thực hành xây dựng ứng dụng hoàn chỉnh"
+            ],
+            "price":"3.000.000"
+        },
+        {
+            "image":"https://res.cloudinary.com/serviced24/image/upload/v1643099117/course/app_level_2.jpg-1_mel7f4.png",
+            "name": "Khóa học Thiết Kế App (Level 2)",
+            "startDate":"14/02/2022",
+            "level":"Level 2",
+            "schedule":"Tự chọn",
+            "time":"Tự chọn",
+            "slug":"app-lv2",
+            "details": [
+                "Tìm hiểu: Future, Stream, async, await",
+                "Tìm hiểu kết nối ứng dụng với Firebase",
+                "Tìm hiểu đăng ký, đăng nhập với Firebase Authtication",
+                "Tìm hiểu Cloud Firestore",
+                "Tìm hiểu push norification với Firebase Cloud Messaging",
+                "Thực hành xây dựng ứng dụng",
+                "Thực hành xây dựng ứng dụng",
+                "Thực hành xây dựng ứng dụng"
+            ],
+            "price":"3.000.000"
+        },
+        {
+            "image":"https://res.cloudinary.com/serviced24/image/upload/v1643099118/course/app_level_3_ugysbg.png",
+            "name": "Khóa học Thiết Kế App (Level 3)",
+            "startDate":"14/02/2022",
+            "level":"Level 3",
+            "schedule":"Tự chọn",
+            "time":"Tự chọn",
+            "slug":"app-lv3",
+            "details": [
+                "Tìm hiểu state management: GetX, Provider",
+                "Tìm hiểu: GetxController",
+                "Tìm hiểu: GetService",
+                "Tìm hiểu giao tiếp với API",
+                "Tìm hiểu: GetConnect",
+                "Xây dựng ứng dụng với GetX",
+                "Xây dựng ứng dụng với GetX",
+                "Tìm hiểu: cách release ứng dụng lên Google Play, App Store"
+            ],
+            "price":"4.000.000"
+        }
+    ]
+}
