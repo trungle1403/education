@@ -1,3 +1,4 @@
+import React,{useEffect, useState} from "react";
 import education from "../../../Resource/education.json"
 import Navigation from "../../../Components/Navigation"
 import "../../../App.css";
@@ -9,11 +10,49 @@ export default function HomeScreens(){
     const hanldeClick = (slug) => {
         history.push(`/details/${slug}`)
     }
+    const [like, setLike] = useState([])
+    const getStore = () => {
+        const likeStored = localStorage.getItem('like-storage')
+        likeStored === null ? setLike([]) : setLike(JSON.parse(likeStored))
+    }
+    const setStore = (data) => {
+        localStorage.setItem("like-storage",JSON.stringify(data))
+    }
+    useEffect(() => {
+        getStore()
+    }, [])
+    const handleLike = (slug) => {
+        const temp = [...like]
+        const position = temp.indexOf(slug)
+        if(position === -1){
+            temp.push(slug)
+        }else{
+            temp.splice(position,1)
+        }
+        setLike(temp)
+        setStore(temp)
+    }
     const lists = education?.course?.map((element, index) => {
         return (
             <div className="col-md-6 col-sm-12 col-lg-4 mt-3">
-                <div className="course-item">
+                <div key={index} className="course-item">
                     <img className='course-image' onClick={() => {hanldeClick(element.slug)}} src={element.image} alt="" />
+                    {
+                        like && like.length  === 0 ? 
+                        <div className='like-wrapper'
+                            onClick={() => handleLike(element.slug)}>
+                                <i class='bx bxs-heart'></i>
+                                <span>Thêm vào yêu thích</span>
+                        </div> :
+                        like.map(item =>(
+                                <div className={`like-wrapper ${item === element.slug ? 'active' : ''}`}
+                                onClick={() => handleLike(element.slug)}>
+                                    <i class='bx bxs-heart'></i>
+                                    <span>Hủy thích</span>
+                                </div>
+                        ))
+                        
+                    }
                     <div className="course-body">
                         <h3 className="course-name" onClick={() => {hanldeClick(element.slug)}}>{element.name}</h3>
                         <div class="course-info"><span>Ngày khai giảng: </span>{element.startDate}</div>
