@@ -2,7 +2,7 @@ import React,{useEffect, useState} from "react";
 import education from "../../../Resource/education.json"
 import Navigation from "../../../Components/Navigation"
 import "../../../App.css";
-import { useHistory } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 export default function HomeScreens(){
     <Navigation></Navigation>
     const history = useHistory();
@@ -17,6 +17,7 @@ export default function HomeScreens(){
     }
     const setStore = (data) => {
         localStorage.setItem("like-storage",JSON.stringify(data))
+        setLike(data)
     }
     
     useEffect(() => {
@@ -30,14 +31,15 @@ export default function HomeScreens(){
         }else{
             temp.splice(position,1)
         }
-        setLike(temp)
         setStore(temp)
     }
     const lists = education?.course?.map((element, index) => {
         return (
-            <div className="col-md-6 col-sm-12 col-lg-4 mt-3">
-                <div key={index} className="course-item">
-                    <img className='course-image' onClick={() => {hanldeClick(element.slug)}} src={element.image} alt="" />
+            <div key={index} className="col-md-6 col-sm-12 col-lg-4 mt-3">
+                <div  className="course-item">
+                    <Link to={`details/${element.slug}`}> 
+                        <img className='course-image' src={element.image} alt="" />
+                    </Link>
                     {
                         like && like.length  === 0 ? 
                         <div className='like-wrapper'
