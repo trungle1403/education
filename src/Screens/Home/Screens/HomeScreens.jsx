@@ -18,6 +18,7 @@ export default function HomeScreens(){
     const setStore = (data) => {
         localStorage.setItem("like-storage",JSON.stringify(data))
     }
+    
     useEffect(() => {
         getStore()
     }, [])
@@ -40,18 +41,22 @@ export default function HomeScreens(){
                     {
                         like && like.length  === 0 ? 
                         <div className='like-wrapper'
+                        onClick={() => handleLike(element.slug)}>
+                            <i class='bx bxs-heart'></i>
+                            <span>Thêm vào yêu thích</span>
+                        </div> :
+                        like.includes(element.slug) ? 
+                            <div className='like-wrapper active'
                             onClick={() => handleLike(element.slug)}>
                                 <i class='bx bxs-heart'></i>
-                                <span>Thêm vào yêu thích</span>
-                        </div> :
-                        like.map(item =>(
-                                <div className={`like-wrapper ${item === element.slug ? 'active' : ''}`}
-                                onClick={() => handleLike(element.slug)}>
-                                    <i class='bx bxs-heart'></i>
-                                    <span>Hủy thích</span>
-                                </div>
-                        ))
-                        
+                                <span>Hủy thích</span>
+                            </div>
+                            :
+                            <div className='like-wrapper'
+                            onClick={() => handleLike(element.slug)}>
+                                <i class='bx bxs-heart'></i>
+                                <span> Thêm vào yêu thích</span>
+                            </div>
                     }
                     <div className="course-body">
                         <h3 className="course-name" onClick={() => {hanldeClick(element.slug)}}>{element.name}</h3>
