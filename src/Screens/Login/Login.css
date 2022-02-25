@@ -1,0 +1,12 @@
+.form-login {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 2px 0 12px rgba(0, 0, 0, .2);
+}
+.form-login button {
+    display: flex;
+    margin: auto;
+}

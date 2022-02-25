@@ -69,7 +69,6 @@
     
     .container {
         padding: 15px;
-        text-align: right;
         /* background-color: rgb(228, 29, 89); */
     }
     
@@ -245,4 +244,8 @@
     }
     .like-wrapper.active i {
         color: yellow;
+    }
+
+    .btn-logout {
+        cursor: pointer;
     }
